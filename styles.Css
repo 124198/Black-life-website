@@ -1,0 +1,29 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#video-player {
+    width: 100%;
+}
+
+#video-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#video-controls button,
+#video-controls input {
+    margin-right: 10px;
+}

@@ -1,0 +1,37 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/Z6lQfwuGIP4?vq=hd1080&autoplay=1&modestbranding=1&rel=0&cc_load_policy=1&iv_load_policy=3&color=white&controls=0&disablekb=1"
+        width="560" height="315"
+        title="Rihanna, Avicii, Justin Bieber, Kygo, Selena Gomez, Alok, Bastille, David Guetta 🔥 Lively Summer Mix"
+        frameborder="0" allowfullscreen></iframe>
+    <div class="video-container">
+        <video id="video-player" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="video-controls">
+            <button id="play-pause">Play</button>
+            <input id="seek-bar" type="range" min="0" value="0">
+            <button id="mute">Mute</button>
+            <input id="volume-bar" type="range" min="0" max="1" step="0.1" value="1">
+            <button id="full-screen">Full Screen</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+
+
+</body>
+
+</html>
